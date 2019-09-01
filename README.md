@@ -1,0 +1,5 @@
+A simple program which allows you to view who a given team won't play during a season. For now, this can only be run through your terminal. I plan on adding a web interface in the future.
+
+[data.json](https://github.com/hshaf/baseball-filter/blob/master/data.json) is where all the content is stored. There are two objects: "teams", which contains a list of all the teams currently in the MLB, and "opponents", which is where all the opponents a team will face in a season are stored. Currently the placeholder is the schedule for the 2019 Yankees season. Also note that the names of the teams are abbreviated, their corresponding values can be found [here.]([https://www.baseball-reference.com/about/team_IDs.shtml](https://www.baseball-reference.com/about/team_IDs.shtml))
+
+I included a file which allows you to utilize the split() function to format your data for efficiency. I included a link to scrape data as well as a site which removes line breaks from blocks of text.
